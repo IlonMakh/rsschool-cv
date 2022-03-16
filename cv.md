@@ -12,6 +12,21 @@
 
 ## Code example
 
-## Job experience
+```javascript
+
+function numCompare(a,b) {
+    if(a-b>0) {
+        console.log("Меньшее число: "+ b +" Большее число: " + a);
+    }
+    else if (a-b==0) {
+        console.log("Заданые числа равны");
+    }
+    else { 
+        console.log("Меньшее число: "+ a +" Большее число: " + b);
+}
+}
+
+```
+
 
 ## Languages
