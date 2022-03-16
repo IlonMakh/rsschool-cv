@@ -14,7 +14,9 @@
 ## About me:
 
 >In 2020, I graduated from Belarusian State University with a degree in cultural studies. At the moment, I have to work on distribution in a state cultural institution. 
+
 >My passion for front-end development started with a basic HTML and CSS course taught to us at university. While most of my classmates found layout boring, I really enjoyed the process and decided it is a skill I wanted to develop in the future.
+
 >And now, for the past six months, I have been studying HTML, CSS and JavaScript on my own. Yes, maybe I have some knowledge gaps, but I am full of enthusiasm and motivation to continue my journey in front-end development.
 
 
