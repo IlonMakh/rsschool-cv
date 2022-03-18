@@ -17,9 +17,17 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 65%;
     max-width: 1280px;
     margin: 0 auto;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 30px 0 15px 0;
+
 }
 
 
@@ -29,11 +37,11 @@ body {
     display: flex;
     align-items: center;
 
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .person_info .photo {
-    margin-right: 50px;
+    margin-right: 70px;
 
     height: 300px;
 }
@@ -65,11 +73,12 @@ body {
 
 .contacts {
     background-color: #efa09b;
+    color: white;
 }
 
 .contacts .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px 0 30px 0;
 
     font-size: 16px;
@@ -108,12 +117,51 @@ background-image: url(../images/ico-mail.png);
     background-image: url(../images/ico_git.png);
             }
 
+
+
+/*-------------------CV CONTENT------------------------------------*/
+
 .cv_content .container {
     display: flex;
+
+    font-size: 18px;
+
 }
+
 
 .sidebar_info {
     width: 400px;
+    margin-right: 70px;
+}
+
+.about {
+    background-color: #212121;
+    color: white;
+    font-size: 14px;
+
+    padding: 0 15px 15px 15px;
+}
+
+.education {
+    margin: 20px 0 25px 0;
+    padding: 0 15px 15px 15px;
+
+    border-left: 3px solid #efa09b;
+    border-right: 3px solid #efa09b;
+}
+
+
+.education__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.education .pink_font {
+    font-size: 20px;
+}
+
+.skills li {
+    list-style-position: inside;
+    list-style-type: circle;
 }
 
 
