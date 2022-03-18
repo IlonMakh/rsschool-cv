@@ -159,9 +159,69 @@ background-image: url(../images/ico-mail.png);
     font-size: 20px;
 }
 
+
+
+
 .skills li {
     list-style-position: inside;
     list-style-type: circle;
+}
+
+.skills li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+
+.skills__item .progress {
+    display: inline-block;
+    height:4px;
+    width:150px;
+    margin-left: 10px;
+    background-color: silver;
+
+    vertical-align: middle;
+}
+
+.html::before,
+.vs::before,
+.git::before,
+.js::before,
+.figma::before     {
+  content: "";
+  display: block;
+  height: 100%;
+  background: #efa09b;
+}
+
+.html::before {
+    width: 80%;
+}
+
+.vs::before {
+    width: 90%;
+}
+
+.js::before{
+    width: 40%;
+}
+
+.git::before {
+    width: 40%;
+}
+
+.figma::before {
+    width: 60%;
+}
+
+
+.code_example .js_code {
+    font-size: 14px;
+
+    background-color: #fff;
+    border-radius: 15px;
+
+    padding: 0 10px 0 10px;
 }
 
 
