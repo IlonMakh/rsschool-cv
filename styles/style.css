@@ -16,10 +16,16 @@ body {
     background-color: #eeeef0;
 }
 
+.container {
+    width: 75%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 
 /*---------------------HEADER---------------------------------------------*/
 
-.person_info {
+.person_info .container {
     display: flex;
     align-items: center;
 
@@ -58,14 +64,15 @@ body {
 /*-------------------------Contacts---------------------------------------------*/
 
 .contacts {
+    background-color: #efa09b;
+}
+
+.contacts .container {
     display: flex;
     justify-content: space-around;
     padding: 30px 0 30px 0;
 
     font-size: 16px;
-    background-color: #efa09b;
-
-    width: 100%;
 }
 
 .ico {
@@ -101,7 +108,7 @@ background-image: url(../images/ico-mail.png);
     background-image: url(../images/ico_git.png);
             }
 
-.cv_content {
+.cv_content .container {
     display: flex;
 }
 
