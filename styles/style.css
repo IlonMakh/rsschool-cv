@@ -150,6 +150,7 @@ background-image: url(../images/ico-mail.png);
     background-color: #212121;
     color: white;
     font-size: 14px;
+    width: 400px;
 
     padding: 0 15px 15px 15px;
 }
